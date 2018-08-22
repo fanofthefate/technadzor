@@ -1,0 +1,26 @@
+.breadcrumbs{
+	background-color: #ededed;
+	height: 38px;
+	font-size: 14px;
+	font-family: 'Arial';
+	padding: 10px 0 0 47px;
+	a{
+		color: #919191;
+	}
+	#crumbs>a{
+		background-image: url(../img/bread-home.png);
+		background-repeat: no-repeat;
+		padding-left: 19px;
+	}
+	span{
+		padding-right: 15px;
+		&.current{
+			color: #c5c5c5;
+		}
+		&:first-child{
+			background-image: url(../img/bread-home.png);
+			background-repeat: no-repeat;
+			padding-left: 19px;
+		}
+	}
+}
