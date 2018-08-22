@@ -8,11 +8,9 @@ wp-content/plugins
 wp-content/uploads
 wp-content/gallery
 wp-content/languages
+wp-content/cache
+wp-content/upgrade
 wp-content/ngg
 wp-content/themes/index.php
+wp-content/themes/twentyfifteen
 !.gitignore
-!package.json
-!webpack.config.js
-!postcss.config.js
-!wp-config.php
-!yarn.lock
